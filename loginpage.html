@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="loginpage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" id="login-form">
+        <h2>Login</h2>
+        <div class="input-space">
+          <input
+            type="text"
+            required
+            placeholder="Enter your Name"
+            id="username"
+          />
+          <label for="Enter your Name"></label>
+        </div>
+        <div class="input-space">
+          <input
+            type="password"
+            required
+            placeholder="Enter your Password"
+            id="password"
+          />
+          <label for="Enter your password"></label>
+        </div>
+        <div class="remember-forgot">
+          <label for="show-password">
+            <input
+              type="checkbox"
+              id="rememberme1"
+              style="width: 20px; display: flex; flex-direction: column;"
+            />
+            <p>Show password</p>
+          </label>
+        </div>
+        <div class="remember-forgot">
+          <label for="remember me">
+            <input type="checkbox" id="rememberme" />
+            <p>Remember me</p>
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" id="login-btn">Login</button>
+        <p id="message" style="margin: 10px;"></p>
+        <div class="register">
+          <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="home.js"></script>
+</html>
