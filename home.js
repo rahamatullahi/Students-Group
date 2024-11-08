@@ -8,7 +8,7 @@ const message = document.getElementById('message');
 const users = [
   { username: 'john', password: 'johnsPassword' },
   { username: 'jane', password: 'janesPassword' },
-  { username: 'bob', password: 'bobsPassword' },
+  { username: 'Hubert', password: '1722008' },
 ];
 
 loginBtn.addEventListener('click', (e) => {
