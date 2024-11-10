@@ -6,7 +6,7 @@ const loginBtn = document.getElementById('login-btn');
 const showPasswordCheckbox = document.getElementById('rememberme1');
 const message = document.getElementById('message');
 const users = [
-  { username: 'john', password: 'johnsPassword' },
+  { username: 'Small Jee', password: '2912011' },
   { username: 'jane', password: 'janesPassword' },
   { username: 'Hubert', password: '1722008' },
 ];
